@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carta del Restaurante</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color:#623307;
+      background-color: 
+      margin 0;
+      padding: 20px;
+    }
+
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .menu-card {
+      background-color: #e8cb9a;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .menu-card h2 {
+      margin-top: 0;
+      color: #623307;
+    }
+
+    .menu-section {
+      margin-bottom: 15px;
+    }
+
+    .menu-section h3 {
+      margin-bottom: 5px;
+      color: #ffff;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+
+    .menu-item span {
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      .menu-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Menu Alai</h1>
+  <div class="menu-container">
+   <div class="menu-card">
+    <h2>Comidas</h2>
+      <div class="menu-section">
+        <h3>Entradas</h3>
+        <div class="menu-item">
+          <img src="Ensalada Cesar.webp" align=left width="60" height="60"/>
+          <div>Ensalada César</div>
+          <span>$170</span>
+          <a href="ordenar.html">
+          <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Sopa de habas.webp" align=left width="60" height="60"/>
+          <div>Sopa de Habas</div>
+          <span>$90</span>
+          <a href="ordenar.html">
+          <button>Ordenar</button>
+         </a>
+        </div>
+      <div class="menu-item">
+        <img src="Arroz chino con camarones.jpg"   align=left width="60" height="60"/>
+          <div>Arroz chino con camarones</div>
+      <span>$200</span>
+          <a href="ordenar.html">
+          <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Tostada de atun.jpeg" align=left width="60" height="60"/>
+          <div>Tostada de atun</div>
+          <span>$80</span>
+          <a href="ordenar.html">
+          <button>Ordenar</button>
+         </a>
+        </div>
+        </div>
+      <div class="menu-section">
+        <h3>Plato Principal</h3>
+        <div class="menu-item">
+          <img src="Pechuga en la plancha.webp" align=left width="60" height="60"/>
+          <div>Pechuga a la plancha</div>
+          <span>$220</span>
+          <a href="ordenar.html">
+          <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Pulpo a las brasas.jpeg"  align=left width="60" height="60"/>
+          <div>Pulpo a las Brasas</div>
+          <span>$290</span>
+          <a href="ordenar.html">
+          <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+        <img src="Langosta.avif" align=left width="60" height="60"/>
+          <div>Langosta</div>
+          <span>$380</span>
+          <a href="ordenar.html">
+          <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Hamburguesa.jpg" align=left width="60" height="60"/>
+          <div>Hamburguesa Clasica</div>
+          <span>$180</span>
+          <a href="ordenar.html">
+          <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Orden de papas.avif" align=left width="60" height="60"/>
+          <div>Orden de papas</div>
+          <span>$70</span>
+          <a href="ordenar.html">
+           <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Pasta alfredo.jpg" align=left width="60" height="60"/>
+          <div>Pasta Alfredo</div>
+          <span>$180</span>
+          <a href="ordenar.html">
+           <button>Ordenar</button>
+         </a>
+        </div>
+      </div>
+      </div>
+
+    
+    <div class="menu-card">
+      <h2>Bebidas</h2>
+      <div class="menu-section">
+        <h3>Limonadas</h3>
+        <div class="menu-item">
+          <img src="Limonada de cereza.jpg" align=left width="60" height="60"/>
+          <div>Limonada cereza</div>
+          <span>$65</span>
+          <a href="ordenar.html">
+           <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Limonada natural.jpg" align=left width="60" height="60"/>
+          <div>Limonada natural</div>
+          <span>$50</span>
+          <a href="ordenar.html">
+           <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Limonada de fresa.webp" align=left width="60" height="60"/>
+          <div>Limonada de fresa</div>
+          <span>$65</span>
+          <a href="ordenar.html">
+           <button>Ordenar</button>
+         </a>
+        </div>
+      </div>
+      <div class="menu-section">
+        <h3>Sodas</h3>
+        <div class="menu-item">
+          <img src="Coca-Cola.webp" align=left width="60" height="60"/>
+          <div>Coca-Cola</div>
+          <span>$45</span>
+          <a href="ordenar.html">
+          <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Soda de fresa.webp" align=left width="60" height="60"/>
+          <div>Soda de fresa</div>
+          <span>$45</span>
+          <a href="ordenar.html">
+           <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Sprite.webp" align=left width="60" height="60"/>
+          <div>Sprite</div>
+          <span>$40</span>
+          <a href="ordenar.html">
+           <button>Ordenar</button>
+         </a>
+        </div>
+      </div>
+      <div class="menu-section">
+        <h3>Frappes</h3>
+        <div class="menu-item">
+          <img src="Frappe de oreo.jpg"  align=left width="60" height="60"/>
+          <div> Frappe Oreo</div>
+          <span>$90</span>
+          <a href="ordenar.html">
+           <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Frappe de mazapan.jpg" align=left width="60" height="60"/>
+          <div> Frappe de mazapan</div>
+          <span>$90</span>
+          <a href="ordenar.html">
+           <button>Ordenar</button>
+         </a>
+        </div>
+        <div class="menu-item">
+          <img src="Frappe de Moks.jpg"   align=left width="60" height="60"/>
+          <div>Frappe de Moka</div>
+          <span>$85</span>
+          <a href="ordenar.html">
+           <button>Ordenar</button>
+         </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="sscript.js"></script>
+</body>
+</html>

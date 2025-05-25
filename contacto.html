@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Restaurante</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #623307;
+      padding: 20px;
+    }
+    .contacto {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #e8cb9a;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contacto h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .contacto label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    .contacto input, .contacto textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #e8cb9a;
+      border-radius: 4px;
+    }
+    .contacto button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #623307;
+      color: #e8cb9a;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .contacto button:hover {
+      background-color: #623307;
+    }
+  </style>
+</head>
+<body>
+  <section class="contacto">
+    <h2>Contáctanos</h2>
+      <label for="nombre">Nombre *</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Direccion *</label>
+      <input type="direccion" id="direccion" name="direccion" required>
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" id="telefono" name="telefono">
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</body>
+</html>
